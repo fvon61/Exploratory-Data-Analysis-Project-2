@@ -22,6 +22,6 @@ barplot(height=aggEmmByYear$Emissions,
         ylab=expression('total PM'[2.5]*' emission'),main=expression('Total PM'[2.5]*' emissions at various years'))
 
 ## Saving to file
-dev.copy(png, file="plot1a.png", height=480, width=480)
+dev.copy(png, file="plot1.png", height=480, width=480)
 
 dev.off()
